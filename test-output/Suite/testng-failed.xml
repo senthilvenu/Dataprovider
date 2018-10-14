@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="MainTest.MainTestData">
+        <methods>
+          <include name="Gmail"/>
+        </methods>
+      </class> <!-- MainTest.MainTestData -->
+      <class name="MainTest.MainTestDataProivder">
+        <methods>
+          <include name="GmailLogin"/>
+        </methods>
+      </class> <!-- MainTest.MainTestDataProivder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
